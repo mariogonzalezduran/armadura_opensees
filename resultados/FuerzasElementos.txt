@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <OpenSees
+  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation = "http://OpenSees.berkeley.edu/xml-schema/xmlns/OpenSees.xsd">
+    <TimeOutput>
+        <ResponseType>time</ResponseType>
+    </TimeOutput>
+    <ElementOutput eleType="Truss" eleTag="1" node1="1" node2="2">
+        <ResponseType>N</ResponseType>
+    </ElementOutput>
+    <ElementOutput eleType="Truss" eleTag="2" node1="1" node2="3">
+        <ResponseType>N</ResponseType>
+    </ElementOutput>
+    <ElementOutput eleType="Truss" eleTag="3" node1="2" node2="3">
+        <ResponseType>N</ResponseType>
+    </ElementOutput>
+    <ElementOutput eleType="Truss" eleTag="4" node1="2" node2="4">
+        <ResponseType>N</ResponseType>
+    </ElementOutput>
+    <ElementOutput eleType="Truss" eleTag="5" node1="3" node2="4">
+        <ResponseType>N</ResponseType>
+    </ElementOutput>
+    <Data>
+        0.1 -7.73082 16.875 -3.75 -7.73082 9.375 
+        0.2 -15.4616 33.75 -7.5 -15.4616 18.75 
+        0.3 -23.1925 50.625 -11.25 -23.1925 28.125 
+        0.4 -30.9233 67.5 -15 -30.9233 37.5 
+        0.5 -38.6541 84.375 -18.75 -38.6541 46.875 
+        0.6 -46.3849 101.25 -22.5 -46.3849 56.25 
+        0.7 -54.1158 118.125 -26.25 -54.1158 65.625 
+        0.8 -61.8466 135 -30 -61.8466 75 
+        0.9 -69.5774 151.875 -33.75 -69.5774 84.375 
+        1 -77.3082 168.75 -37.5 -77.3082 93.75 
+        </Data>
+</OpenSees>
